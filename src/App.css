@@ -1,0 +1,124 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+  background-color: #282c34;
+}
+
+.App 
+{
+  display: flex;
+  flex-direction: column;
+  background-color: #8b8b8b00;
+
+  padding: 8px 8px;
+  width: 100vw;
+  height: 86svh;
+
+}
+
+.App-logo 
+{
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) 
+{
+  .App-logo { animation: App-logo-spin infinite 20s linear; }
+}
+
+.App-header 
+{
+  background-color: #383838;
+
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link
+{
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin 
+{
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* ---------------------------------------------------- */
+main
+{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.todo-list-container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: burlywood;
+    width: 100%;
+    padding: 16px;  
+}
+
+.Header-main
+{
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  color: azure;
+  gap:32px;  
+}
+
+button#logoutButton
+{
+  background: #ffffff;
+  margin: 0px 10px; 
+  
+}
+
+button#delAccButton
+{
+  background: #ff8888;
+
+}
+
+button#logoutButton img
+{
+  background: #ffffff;
+
+  
+}
+
+button#delAccButton img
+{
+  background: #ff8888;
+}
+
+
+
+
+
+
+
+
+
+
